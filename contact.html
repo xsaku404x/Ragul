@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color:#8ebb41;
+            color: #333;
+        }
+        header {
+            background-color: #1a1c1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin: 8px 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 12px;
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #256428;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #e0e0e0;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <p>Get in touch with our Siddha Health Center</p>
+</header>
+
+<div class="container">
+    <h2>Contact Information</h2>
+    <div class="contact-info">
+        <p><b>Dr.H.Ragul Dev (BSMS)</b></P>
+		<p><strong>Phone:</strong> +91 9944759640</p>
+		 <p><b>Dr.L.ANUSUYA (BSMS)</b></P>
+		<p><strong>Phone:</strong> +91 8778936906</p>
+        <p><strong>Email:</strong> raguldev555@gmail.com</p>
+        <p><strong>Address:</strong> Nellai complex,Near kamarajar market,Tenkasi mainroad,</br>         Pavoorchatram,Tenkasi-627808,Tamilnadu</p>
+        <p><strong>Working Hours:</strong> Mon – Sun : 9:00 AM – 9:00 PM</p>
+    </div>
+
+    <h2>Send Us a Message</h2>
+    <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Type your message here..." required></textarea>
+		
+        <button type="submit" onclick="msg()">Send Message</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2026 Siddha Health Center. All Rights Reserved.</p>
+</footer>
+<script>
+function msg()
+{
+	alert("succesfully send");
+}
+</script>
+</body>
+</html>
