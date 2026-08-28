@@ -1,0 +1,117 @@
+<html>
+<head>
+	<title>ANURA NATURALS</title>
+	<link rel="icon" href="C:\Users\sakun\OneDrive\Documents\r3.jpg" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<style>
+    .dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+
+    width: 230px;
+    padding: 10px;
+
+    background: white;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 13px 15px;
+    margin: 4px 0;
+
+    color: #222;
+    text-decoration: none;
+    font-size: 18px;
+
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.dropdown-content a:hover {
+    background: #dff5df;
+    color: #176b35;
+    transform: translateX(5px);
+}
+body {
+    background-image: url("s.jpeg");
+    background-size: cover;        /* Makes the image cover the whole screen */
+    background-repeat: no-repeat;  /* Prevents tiling */
+    background-position: center;   /* Centers the image */
+    background-attachment: fixed;  /* Keeps the image fixed while scrolling */
+}       
+  
+</style>
+</head>
+<body>
+	<center>
+	<img src="r3.jpeg" class="round-icon"/>
+	<p><h5>AnuRa Naturals</h5></p>
+	</center>
+	
+	<nav class="navbar">
+    <div class="logo">AnuRa Naturals</div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+       <!-- <li><a href="#">Products</a></li>-->
+    <div class="dropdown">
+    <a class="dropbtn">Products ▾</a>
+
+    <div class="dropdown-content">
+        <a href="malt.html">🥤 <span>Malt</span></a>
+        <a href="oil.html">🌿 <span>Herbal Oil</span></a>
+        <a href="soap.html">🧼 <span>Herbal Soap</span></a>
+    </div>
+</div>
+    
+</div>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<center>
+<br/>
+<p><h1>Welcome to Anura Naturals!</h1></p>
+<pre>
+We’re delighted to share the pure goodness of nature with you.
+At Anura Naturals, we craft wellness and skincare products using 
+timeWe-honored herbal traditions and clean, chemical-free ingredients. 
+Our mission is to help you live healthier, feel better, and glow naturally.
+
+
+<b>Thank you for being part of our natural wellness journey. 🌿<b>
+</pre>
+<p><h5>A journey inspired by nature.</h5>
+Every product we create reflects care, purity, and respect for the earth.</p>
+</center>
+</body>
+</html>
